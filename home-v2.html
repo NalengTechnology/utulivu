@@ -1,0 +1,1879 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tilakam - Church HTML Template</title>
+  <!-- Vendor Stylesheets -->
+  <link rel="stylesheet" href="assets/css/plugins/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/plugins/animate.min.css">
+  <link rel="stylesheet" href="assets/css/plugins/magnific-popup.css">
+  <link rel="stylesheet" href="assets/css/plugins/slick.css">
+  <link rel="stylesheet" href="assets/css/plugins/slick-theme.css">
+  <link rel="stylesheet" href="assets/css/plugins/ion.rangeSlider.min.css">
+  <!-- Icon Fonts -->
+  <link rel="stylesheet" href="assets/fonts/flaticon/flaticon.css">
+  <link rel="stylesheet" href="assets/css/plugins/font-awesome.min.css">
+  <!-- Tilakam Style sheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon.ico">
+</head>
+
+<body>
+
+  <!-- Quick View Modal Start -->
+  <div class="modal fade sigma_quick-view-modal" id="quickViewModal" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="close-btn close-dark close" data-dismiss="modal">
+            <span></span>
+            <span></span>
+          </div>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-5">
+                <img src="assets/img/products/9.png" alt="product">
+              </div>
+              <div class="col-md-7">
+                <div class="sigma_product-single-content">
+                  <div class="sigma_rating-wrapper">
+                    <div class="sigma_rating">
+                      <i class="fa fa-star active"></i>
+                      <i class="fa fa-star active"></i>
+                      <i class="fa fa-star active"></i>
+                      <i class="fa fa-star active"></i>
+                      <i class="fa fa-star"></i>
+                    </div>
+                    <span>4 Stars</span>
+                  </div>
+                  <h3> Tomatoes </h3>
+                  <div class="sigma_product-price">
+                    <span>8$</span>
+                    <span>14$</span>
+                  </div>
+                  <p class="sigma_product-excerpt">Cras ultricies ligula sed magna dictum porta. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.</p>
+                  <form class="sigma_product-atc-form">
+                    <div class="sigma_product-variation-wrapper">
+                      <div class="form-group">
+                        <select class="form-control" name="amount">
+                          <option value="">Select Amount</option>
+                          <option value="1">1 Kilo</option>
+                          <option value="2">2 Kilos</option>
+                          <option value="3">3 Kilos</option>
+                          <option value="4">4 Kilos</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <select class="form-control" name="breed">
+                          <option value="">Select a Breed</option>
+                          <option value="italian">Italian</option>
+                          <option value="egyptian">Egyptian</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="qty-outter">
+                      <a href="product-single.html" class="sigma_btn-custom">Buy Now</a>
+                      <div class="qty">
+                        <span class="qty-subtract"><i class="fa fa-minus"></i></span>
+                        <input type="text" name="qty" value="1">
+                        <span class="qty-add"><i class="fa fa-plus"></i></span>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Quick View Modal End -->
+
+  <!-- Search Form Start-->
+  <div class="sigma_search-form-wrapper">
+    <div class="sigma_search-trigger close-btn">
+      <span></span>
+      <span></span>
+    </div>
+    <form class="sigma_search-form" method="post">
+      <input type="text" placeholder="Search..." value="">
+      <button type="submit" class="sigma_search-btn">
+        <i class="fal fa-search"></i>
+      </button>
+    </form>
+  </div>
+  <!-- Search Form End-->
+
+  <!-- Cart Sidebar -->
+  <div class="sigma_cart-sidebar-wrapper sigma_aside sigma_aside-right">
+    <aside class="sigma_cart-sidebar">
+      <div class="sigma_cart-sidebar-header">
+        <h4>Your Cart</h4>
+        <div class="close-btn sigma_cart-trigger close-dark">
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div class="sigma_cart-sidebar-body">
+
+        <div class="sigma_cart-sidebar-item">
+          <div class="sigma_cart-sidebar-item-body">
+            <a href="product-details.html"><img src="assets/img/products/2.jpg" alt="product"></a>
+            <div class="sigma_cart-sidebar-item-body-inner">
+              <h5> <a href="product-details.html" title="Pepperoni">Holy Bible</a> </h5>
+              <span>4x 1,323.99$</span>
+            </div>
+          </div>
+          <div class="sigma_cart-sidebar-price">
+            4,312.99$
+          </div>
+          <div class="close-btn close-dark">
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+
+        <div class="sigma_cart-sidebar-item">
+          <div class="sigma_cart-sidebar-item-body">
+            <a href="product-details.html"><img src="assets/img/products/3.jpg" alt="product"></a>
+            <div class="sigma_cart-sidebar-item-body-inner">
+              <h5> <a href="product-details.html" title="Pepperoni">Stainless Senser</a> </h5>
+              <span>4x 1,323.99$</span>
+            </div>
+          </div>
+          <div class="sigma_cart-sidebar-price">
+            4,312.99$
+          </div>
+          <div class="close-btn close-dark">
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+
+        <div class="sigma_cart-sidebar-item">
+          <div class="sigma_cart-sidebar-item-body">
+            <a href="product-details.html"><img src="assets/img/products/4.jpg" alt="product"></a>
+            <div class="sigma_cart-sidebar-item-body-inner">
+              <h5> <a href="product-details.html" title="Pepperoni">Cross Combo</a> </h5>
+              <span>4x 1,323.99$</span>
+            </div>
+          </div>
+          <div class="sigma_cart-sidebar-price">
+            4,312.99$
+          </div>
+          <div class="close-btn close-dark">
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+
+        <div class="sigma_cart-sidebar-item">
+          <div class="sigma_cart-sidebar-item-body">
+            <a href="product-details.html"><img src="assets/img/products/5.jpg" alt="product"></a>
+            <div class="sigma_cart-sidebar-item-body-inner">
+              <h5> <a href="product-details.html" title="Pepperoni">Wood Cross</a> </h5>
+              <span>4x 1,323.99$</span>
+            </div>
+          </div>
+          <div class="sigma_cart-sidebar-price">
+            4,312.99$
+          </div>
+          <div class="close-btn close-dark">
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+
+        <div class="sigma_cart-sidebar-item">
+          <div class="sigma_cart-sidebar-item-body">
+            <a href="product-details.html"><img src="assets/img/products/6.jpg" alt="product"></a>
+            <div class="sigma_cart-sidebar-item-body-inner">
+              <h5> <a href="product-details.html" title="Pepperoni">Pearl Cross</a> </h5>
+              <span>4x 1,323.99$</span>
+            </div>
+          </div>
+          <div class="sigma_cart-sidebar-price">
+            4,312.99$
+          </div>
+          <div class="close-btn close-dark">
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+
+      </div>
+      <div class="sigma_cart-sidebar-footer">
+        <h4>Total: <span>4,312.99$</span> </h4>
+        <a href="checkout.html" class="sigma_btn-custom">Checkout</a>
+      </div>
+    </aside>
+  </div>
+  <div class="sigma_aside-overlay sigma_cart-sidebar-overlay sigma_cart-trigger"></div>
+
+  <!-- Aside (Right Panel) -->
+  <aside class="sigma_aside sigma_aside-right sigma_aside-right-panel sigma_aside-bg">
+    <div class="sidebar">
+
+      <div class="sidebar-widget">
+        <img src="assets/img/logo.png" class="mb-30" alt="img">
+        <p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Donec rutrum congue leo eget malesuada. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
+      </div>
+
+      <!-- Instagram Start -->
+      <div class="sidebar-widget">
+        <h5 class="widget-title">Instagram</h5>
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-6">
+            <a href="#" class="sigma_ig-item">
+              <img src="assets/img/ig/1.jpg" alt="ig">
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 col-6">
+            <a href="#" class="sigma_ig-item">
+              <img src="assets/img/ig/2.jpg" alt="ig">
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 col-6">
+            <a href="#" class="sigma_ig-item">
+              <img src="assets/img/ig/3.jpg" alt="ig">
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 col-6">
+            <a href="#" class="sigma_ig-item">
+              <img src="assets/img/ig/4.jpg" alt="ig">
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 col-6">
+            <a href="#" class="sigma_ig-item">
+              <img src="assets/img/ig/5.jpg" alt="ig">
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 col-6">
+            <a href="#" class="sigma_ig-item">
+              <img src="assets/img/ig/6.jpg" alt="ig">
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Instagram End -->
+
+      <!-- Social Media Start -->
+      <div class="sidebar-widget">
+        <h5 class="widget-title">Follow Us</h5>
+        <div class="sigma_post-share">
+          <ul class="sigma_sm">
+            <li>
+              <a href="#" class="sigma_round-button">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="125px" height="125px" viewBox="0 0 197 197" enable-background="new 0 0 197 197" xml:space="preserve">
+                  <circle class="sigma_round-button-stroke" stroke-linecap="round" cx="98.5" cy="98.6" r="97.5"></circle>
+                  <circle class="sigma_round-button-circle" stroke-linecap="round" cx="98.5" cy="98.6" r="97.5"></circle>
+                </svg>
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="sigma_round-button">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="125px" height="125px" viewBox="0 0 197 197" enable-background="new 0 0 197 197" xml:space="preserve">
+                  <circle class="sigma_round-button-stroke" stroke-linecap="round" cx="98.5" cy="98.6" r="97.5"></circle>
+                  <circle class="sigma_round-button-circle" stroke-linecap="round" cx="98.5" cy="98.6" r="97.5"></circle>
+                </svg>
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="sigma_round-button">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="125px" height="125px" viewBox="0 0 197 197" enable-background="new 0 0 197 197" xml:space="preserve">
+                  <circle class="sigma_round-button-stroke" stroke-linecap="round" cx="98.5" cy="98.6" r="97.5"></circle>
+                  <circle class="sigma_round-button-circle" stroke-linecap="round" cx="98.5" cy="98.6" r="97.5"></circle>
+                </svg>
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="sigma_round-button">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="125px" height="125px" viewBox="0 0 197 197" enable-background="new 0 0 197 197" xml:space="preserve">
+                  <circle class="sigma_round-button-stroke" stroke-linecap="round" cx="98.5" cy="98.6" r="97.5"></circle>
+                  <circle class="sigma_round-button-circle" stroke-linecap="round" cx="98.5" cy="98.6" r="97.5"></circle>
+                </svg>
+                <i class="fab fa-youtube"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- Social Media End -->
+
+    </div>
+  </aside>
+  <div class="sigma_aside-overlay aside-trigger-right"></div>
+
+  <!-- Aside (Mobile Navigation) -->
+  <aside class="sigma_aside sigma_aside-left">
+
+    <a class="navbar-brand" href="index.html"> <img src="assets/img/logo.png" alt="logo"> </a>
+
+    <ul>
+      <li class="menu-item menu-item-has-children">
+        <a href="#">Home Pages</a>
+        <ul class="sub-menu">
+          <li class="menu-item"> <a href="index.html">Home v1</a> </li>
+          <li class="menu-item"> <a href="home-v2.html">Home v2</a> </li>
+          <li class="menu-item"> <a href="home-v3.html">Home v3</a> </li>
+        </ul>
+      </li>
+      <li class="menu-item menu-item-has-children">
+        <a href="#">Blog</a>
+        <ul class="sub-menu">
+          <li class="menu-item menu-item-has-children">
+            <a href="blog-grid.html">Blog Archive</a>
+            <ul class="sub-menu">
+              <li class="menu-item"> <a href="blog-grid.html">Grid View</a> </li>
+              <li class="menu-item"> <a href="blog-list.html">List View</a> </li>
+              <li class="menu-item"> <a href="blog-masonry.html">Masonry View</a> </li>
+            </ul>
+          </li>
+          <li class="menu-item"> <a href="blog-details.html">Blog Details</a> </li>
+        </ul>
+      </li>
+      <li class="menu-item menu-item-has-children">
+        <a href="#">Pages</a>
+        <ul class="sub-menu">
+          <li class="menu-item"> <a href="about-us.html">About Us</a> </li>
+          <li class="menu-item"> <a href="contact-us.html">Contact Us</a> </li>
+          <li class="menu-item"> <a href="about-pastor.html">About Pastor</a> </li>
+          <li class="menu-item"> <a href="history.html">History Slide</a> </li>
+
+        </ul>
+      </li>
+      <li class="menu-item menu-item-has-children">
+        <a href="#">Specific Pages</a>
+        <ul class="sub-menu">
+          <li class="menu-item"> <a href="sermons.html">Sermon Archive</a> </li>
+          <li class="menu-item"> <a href="sermon-details.html">Sermon Details</a> </li>
+          <li class="menu-item"> <a href="donations.html">Donations</a> </li>
+          <li class="menu-item"> <a href="donation-details.html">Donation Cause</a> </li>
+          <li class="menu-item"> <a href="prayer-wall.html">Prayer Wall</a> </li>
+        </ul>
+      </li>
+      <li class="menu-item menu-item-has-children">
+        <a href="#">Shop</a>
+        <ul class="sub-menu">
+          <li class="menu-item"> <a href="shop.html">Shop Catalog</a> </li>
+          <li class="menu-item"> <a href="product-single.html">Product Details</a> </li>
+          <li class="menu-item"> <a href="checkout.html">Checkout</a> </li>
+          <li class="menu-item"> <a href="cart.html">Cart</a> </li>
+          <li class="menu-item"> <a href="wishlist.html">Wish List</a> </li>
+        </ul>
+      </li>
+      <li class="menu-item menu-item-has-children">
+        <a href="#">Events</a>
+        <ul class="sub-menu">
+          <li class="menu-item"> <a href="events.html">Events Archive</a> </li>
+          <li class="menu-item"> <a href="event-details.html">Event Details</a> </li>
+          <li class="menu-item"> <a href="event-extended.html">Event Extended</a> </li>
+
+        </ul>
+      </li>
+    </ul>
+
+  </aside>
+  <div class="sigma_aside-overlay aside-trigger-left"></div>
+
+  <!-- Header Start -->
+  <header class="sigma_header header-1 can-sticky header-absolute header-light">
+    <!-- Topheader Start -->
+    <div class="sigma_header-top">
+      <div class="container">
+        <div class="sigma_header-top-inner">
+          <ul class="sigma_header-top-links">
+            <li class="menu-item"> <a href="tel:"> <i class="fal fa-phone"></i> (+123) 123 4567 890</a> </li>
+            <li class="menu-item"> <a href="mailto:"> <i class="fal fa-envelope"></i> info@domain.com</a> </li>
+          </ul>
+          <ul class="sigma_header-top-links">
+            <li class="menu-item sigma_live"><a href="#"><i class="fas fa-circle"></i> Live </a></li>
+            <li class="menu-item menu-item-has-children">
+              <a href="#"> Language</a>
+              <ul class="sub-menu sub-menu-left">
+                <li> <a href="#">English</a> </li>
+                <li> <a href="#">German</a> </li>
+                <li> <a href="#">French</a> </li>
+              </ul>
+            </li>
+          </ul>
+          <div class="sigma_header-top-cta">
+            <a href="donation-details.html" class="sigma_btn-custom btn-sm">Donate Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Topheader End -->
+
+    <!-- Middle Header Start -->
+    <div class="sigma_header-middle">
+      <div class="container">
+        <nav class="navbar">
+
+          <!-- Logo Start -->
+          <div class="sigma_logo-wrapper">
+            <a class="navbar-brand" href="index.html">
+              <img src="assets/img/logo-light.png" alt="logo">
+            </a>
+
+            <!-- Logo Card Start -->
+            <div class="sigma_logo-card d-none d-md-block">
+              <img class="sigma_logo-card-texture" src="assets/img/cross-icon.png" alt="img">
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="sigma_logo-card-logo">
+                    <a class="navbar-brand" href="index.html">
+                      <img src="assets/img/logo-light.png" alt="logo">
+                    </a>
+                  </div>
+                  <p>Donec sollicitudin molestie malesuada. Quisque velit nisi, pretium ut lacinia in, elementum id enim.</p>
+                </div>
+                <div class="col-sm-6">
+
+                  <ul class="sigma_logo-card-info">
+                    <li class="sigma_logo-card-item">
+                      <i class="fal fa-phone"></i>
+                      <div class="sigma_logo-card-item-body">
+                        <p> <strong>Call Us:</strong></p>
+                        <p> +123 456 789 </p>
+                      </div>
+                    </li>
+                    <li class="sigma_logo-card-item">
+                      <i class="fal fa-envelope"></i>
+                      <div class="sigma_logo-card-item-body">
+                        <p> <strong>Email Us:</strong></p>
+                        <p> info@example.com </p>
+                      </div>
+                    </li>
+                    <li class="sigma_logo-card-item">
+                      <i class="fal fa-map-marker"></i>
+                      <div class="sigma_logo-card-item-body">
+                        <p> <strong>Find Us</strong> </p>
+                        <p> <a href="#"> Open in Google Maps </a> </p>
+                      </div>
+                    </li>
+                  </ul>
+                  <ul class="sigma_sm">
+                    <li> <a href="#"> <i class="fab fa-facebook-f"></i> </a> </li>
+                    <li> <a href="#"> <i class="fab fa-twitter"></i> </a> </li>
+                    <li> <a href="#"> <i class="fab fa-linkedin-in"></i> </a> </li>
+                    <li> <a href="#"> <i class="fab fa-youtube"></i> </a> </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Logo Card End -->
+
+          </div>
+          <!-- Logo End -->
+
+          <!-- Menu -->
+          <ul class="navbar-nav">
+            <li class="menu-item menu-item-has-children">
+              <a href="#">Home Pages</a>
+              <ul class="sub-menu">
+                <li class="menu-item"> <a href="index.html">Home v1</a> </li>
+                <li class="menu-item"> <a href="home-v2.html">Home v2</a> </li>
+                <li class="menu-item"> <a href="home-v3.html">Home v3</a> </li>
+              </ul>
+            </li>
+            <li class="menu-item menu-item-has-children">
+              <a href="#">Blog</a>
+              <ul class="sub-menu">
+                <li class="menu-item menu-item-has-children">
+                  <a href="blog-grid.html">Blog Archive</a>
+                  <ul class="sub-menu">
+                    <li class="menu-item"> <a href="blog-grid.html">Grid View</a> </li>
+                    <li class="menu-item"> <a href="blog-list.html">List View</a> </li>
+                    <li class="menu-item"> <a href="blog-masonry.html">Masonry View</a> </li>
+                  </ul>
+                </li>
+                <li class="menu-item"> <a href="blog-details.html">Blog Details</a> </li>
+              </ul>
+            </li>
+            <li class="menu-item menu-item-has-children">
+              <a href="#">Pages</a>
+              <ul class="sub-menu">
+                <li class="menu-item"> <a href="about-us.html">About Us</a> </li>
+                <li class="menu-item"> <a href="about-pastor.html">About Pastor</a> </li>
+                <li class="menu-item"> <a href="checkout.html">Checkout</a> </li>
+                <li class="menu-item"> <a href="cart.html">Cart</a> </li>
+                <li class="menu-item"> <a href="wishlist.html">Wish List</a> </li>
+
+              </ul>
+            </li>
+            <li class="menu-item menu-item-has-children mega-menu-wrapper">
+              <a href="shop-v1.html">Others</a>
+              <ul class="sub-menu">
+                <li>
+                  <img src="assets/img/megamenu.jpg" alt="img">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-lg-3">
+                        <div class="mega-menu-item">
+                          <h6>Basic Pages</h6>
+                          <a href="about-us.html">About Us</a>
+                          <a href="about-pastor.html">About Pastor</a>
+                          <a href="contact-us.html">Contact Us</a>
+                          <a href="history.html">History Slide</a>
+
+                        </div>
+                      </div>
+                      <div class="col-lg-3">
+                        <div class="mega-menu-item">
+                          <h6>Specific Pages</h6>
+                          <a href="sermons.html">Sermon Archive</a>
+                          <a href="sermon-details.html">Sermon Details</a>
+                          <a href="donations.html">Donations</a>
+                          <a href="donation-details.html">Donation Cause</a>
+                          <a href="prayer-wall.html">Prayer Wall</a>
+                        </div>
+                      </div>
+                      <div class="col-lg-4">
+                        <div class="mega-menu-item">
+                          <h6>Shop Pages</h6>
+                          <a href="shop.html">Shop Catalog</a>
+                          <a href="product-single.html">Product Details</a>
+                          <a href="checkout.html">Checkout</a>
+                          <a href="cart.html">Cart</a>
+                          <a href="wishlist.html">Wish List</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </li>
+              </ul>
+            </li>
+            <li class="menu-item menu-item-has-children">
+              <a href="#">Events</a>
+              <ul class="sub-menu">
+                <li class="menu-item"> <a href="events.html">Events Archive</a> </li>
+                <li class="menu-item"> <a href="event-details.html">Event Details</a> </li>
+                <li class="menu-item"> <a href="event-extended.html">Event Extended</a> </li>
+
+              </ul>
+            </li>
+          </ul>
+
+          <!-- Controls -->
+          <div class="sigma_header-controls style-2">
+
+            <ul class="sigma_header-controls-inner">
+              <li>
+                <a class="sigma_search-trigger" href="#">
+                  <i class="fal fa-search"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="sigma_cart-trigger">
+                  <i class="fal fa-shopping-bag"></i>
+                  <span class="sigma_notification-count">06</span>
+                </a>
+              </li>
+
+              <!-- Desktop Toggler -->
+              <li class="aside-toggler style-2 aside-trigger-right desktop-toggler">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </li>
+
+              <!-- Mobile Toggler -->
+              <li class="aside-toggler style-2 aside-trigger-left">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </li>
+            </ul>
+
+          </div>
+
+        </nav>
+      </div>
+    </div>
+    <!-- Middle Header End -->
+
+  </header>
+  <!-- Header End -->
+
+  <!-- Banner Start -->
+  <div class="sigma_banner banner-3">
+
+    <div class="sigma_banner-slider">
+
+      <!-- Banner Item Start -->
+      <div class="sigma_banner-slider-inner dot-pattern bg-cover bg-center bg-norepeat" style="background-image: url('assets/img/banner/1.jpg');">
+        <span class="stroke-text d-none d-lg-block"> Donations </span>
+        <div class="sigma_banner-text">
+          <div class="container">
+            <div class="row align-items-center justify-content-center">
+              <div class="col-lg-8 text-center">
+                <span class="cursive-style badge badge-primary">Church Events</span>
+                <h1> God Gives Us Power </h1>
+                <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Sed porttitor lectus nibh. Vestibulum ac diam sit amet quam vehicula.</p>
+                <a href="about-us.html" class="sigma_btn-custom">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Banner Item End -->
+
+      <!-- Banner Item Start -->
+      <div class="sigma_banner-slider-inner dot-pattern bg-cover bg-center bg-norepeat" style="background-image: url('assets/img/banner/2.jpg');">
+        <span class="stroke-text d-none d-lg-block"> Church </span>
+        <div class="sigma_banner-text">
+          <div class="container">
+            <div class="row align-items-center justify-content-center">
+              <div class="col-lg-7 text-center">
+                <span class="cursive-style badge badge-primary">Church Events</span>
+                <h1> God Gives Us Power </h1>
+                <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Sed porttitor lectus nibh. Vestibulum ac diam sit amet quam vehicula.</p>
+                <a href="about-us.html" class="sigma_btn-custom">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Banner Item End -->
+
+    </div>
+
+    <!-- Custom Arrows Start -->
+    <div class="sigma_arrows sigma_arrows-transparent">
+      <div class="sigma_round-arrow prev-arrow">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="125px" height="125px" viewBox="0 0 197 197" enable-background="new 0 0 197 197" xml:space="preserve">
+          <circle class="sigma_round-arrow-stroke" stroke-linecap="round" cx="98.5" cy="98.6" r="97.5"></circle>
+          <circle class="sigma_round-arrow-circle" stroke-linecap="round" cx="98.5" cy="98.6" r="97.5"></circle>
+        </svg>
+        <i class="far fa-chevron-left slick-arrow slider-prev"></i>
+      </div>
+      <div class="sigma_round-arrow next-arrow">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="125px" height="125px" viewBox="0 0 197 197" enable-background="new 0 0 197 197" xml:space="preserve">
+          <circle class="sigma_round-arrow-stroke" stroke-linecap="round" cx="98.5" cy="98.6" r="97.5"></circle>
+          <circle class="sigma_round-arrow-circle" stroke-linecap="round" cx="98.5" cy="98.6" r="97.5"></circle>
+        </svg>
+        <i class="far fa-chevron-right slick-arrow slider-next"></i>
+      </div>
+    </div>
+    <!-- Custom Arrows End -->
+
+  </div>
+  <!-- Banner End -->
+
+  <!-- Banner bottom Start -->
+  <section class="section section-padding mt-negative">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <img src="assets/img/block/1.jpg" alt="img">
+          <div class="sigma_block-box">
+            <h5 class="cursive-style custom-primary">Next Event</h5>
+            <h4><a href="#">Which is the same as saying</a></h4>
+            <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</p>
+            <div class="sigma_block-content">
+              <div class="sigma_block-date">
+                <span class="custom-primary">20</span>
+                Dec'20
+              </div>
+              <div class="sigma_block-text">
+                <ul class="mb-0">
+                  <li><i class="fal fa-clock custom-primary mr-3"></i>Sunday (8:00 - 9:00 am)</li>
+                  <li><i class="fal fa-map-marker custom-primary mr-3"></i>56 Thatcher Avenue River Forest Chicago, IL United States</li>
+                </ul>
+              </div>
+            </div>
+            <a href="#" class="sigma_btn-custom">Join Now</a>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <img src="assets/img/block/2.jpg" alt="img">
+          <div class="sigma_block-box">
+            <h5 class="cursive-style custom-primary">Latest Sermons</h5>
+            <h4><a href="#">We denounce with righteous</a></h4>
+            <div class="sigma_block-content">
+              <div class="sigma_block-text">
+                <ul class="mb-0">
+                  <li>
+                    <img src="assets/img/people/1.jpg" alt="user">
+                    Message from
+                    <a href="#" class="fw-600">Jhone Deo</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <ul class="custom_flex sigma_block-icons">
+              <li>
+                <a href="#" class="vertical-center">
+                  <i class="fab fa-youtube"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="vertical-center">
+                  <i class="fal fa-file-pdf"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="vertical-center">
+                  <i class="fal fa-share-alt"></i>
+                </a>
+              </li>
+            </ul>
+
+            <!-- Audio Player Start -->
+            <div class="sigma_audio-player" data-audio="http://www.lukeduncan.me/oslo.mp3">
+
+              <div class="controls play-controls">
+                <div class="play-container">
+                  <div class="toggle-play play">
+                    <i class="fal fa-play play-trigger"></i>
+                    <i class="fal fa-pause pause-trigger"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="timeline-wrap">
+                <div class="time">
+                  <div class="current">0:00</div>
+                  <div class="divider">/</div>
+                  <div class="length"></div>
+                </div>
+                <div class="timeline">
+                  <div class="progress"></div>
+                </div>
+              </div>
+
+              <div class="controls">
+                <div class="volume-container">
+                  <div class="volume-button">
+                    <div class="volume fal fa-volume-up"></div>
+                  </div>
+                  <div class="volume-slider">
+                    <div class="volume-percentage"></div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <!-- Audio Player End -->
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Banner bottom End-->
+
+  <!-- About Start -->
+  <section class="section sigma_about bg-cover bg-norepeat pt-0" style="background-image: url('assets/img/aboutbg.png');">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="sigma_about-content">
+            <div class="section-title text-center">
+              <h6 class="subtitle cursive-style">About Us</h6>
+              <h4 class="title">We are a Church That Believes in <span class="custom-primary">Jesus</span> </h4>
+              <p>Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae</p>
+            </div>
+            <div class="sigma_about-text bg-norepeat bg-contain bg-center" style="background-image: url('assets/img/cross-icon.png');">
+              <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years,
+                sometimes by accident, sometimes on purpose (injected humour and the like). If you are going to use a passage of Lorem Ipsum.</p>
+              <p>You need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined. chunks as necessary.</p>
+            </div>
+            <div class="section-button">
+              <a href="#" class="sigma_btn-custom">Explore Events</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- About End -->
+
+  <!-- Urgent Causes Start -->
+  <section class="section bg-norepeat sigma_causes-shortcode bg-center bg-cover" style="background-image: url('assets/img/bg-urgent_causes.jpg');">
+    <div class="container">
+      <div class="sigma_causes-slider">
+
+        <!-- Donation item Start -->
+        <div class="sigma_causes-item section-visible">
+          <div class="col-lg-8 mx-auto">
+            <div class="sigma_causes-content text-center">
+              <div class="section-title text-center">
+                <h6 class="subtitle cursive-style">Urgent Causes</h6>
+                <h4 class="title text-white">The Gospel Truth</h4>
+                <p class="text-white">CVivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae</p>
+              </div>
+              <div class="sigma_causes-chart vertical-center">
+                <p class="text-white">Raised: <strong>$15,000.00</strong></p>
+                <div class="chart-style chart" data-percent="70">
+                  <div class="transform-center">
+                    <span class="percent"></span>
+                    <span>%</span>
+                  </div>
+                </div>
+                <p class="text-white">Goal: <strong>$25,000.00</strong></p>
+              </div>
+
+              <div class="section-button">
+                <a href="donation-details.html" class="sigma_btn-custom">Donate Now</a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <!-- Donation item End -->
+
+        <!-- Donation item Start -->
+        <div class="sigma_causes-item section-visible">
+          <div class="col-lg-8 mx-auto">
+            <div class="sigma_causes-content text-center">
+              <div class="section-title text-center">
+                <h6 class="subtitle cursive-style">Urgent Causes</h6>
+                <h4 class="title text-white">The Gospel Truth</h4>
+                <p class="text-white">CVivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae</p>
+              </div>
+              <div class="sigma_causes-chart vertical-center">
+                <p class="text-white">Raised: <strong>$21,000.00</strong></p>
+                <div class="chart-style chart" data-percent="65">
+                  <div class="transform-center">
+                    <span class="percent"></span>
+                    <span>%</span>
+                  </div>
+                </div>
+                <p class="text-white">Goal: <strong>$32,000.00</strong></p>
+              </div>
+
+              <div class="section-button">
+                <a href="donation-details.html" class="sigma_btn-custom">Donate Now</a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <!-- Donation item End -->
+
+      </div>
+
+      <!-- Custom Arrows Start -->
+      <div class="sigma_arrows sigma_arrows-transparent sigma_arrows-absolute-center">
+        <div class="sigma_round-arrow prev-arrow">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="125px" height="125px" viewBox="0 0 197 197" enable-background="new 0 0 197 197" xml:space="preserve">
+            <circle class="sigma_round-arrow-stroke" stroke-linecap="round" cx="98.5" cy="98.6" r="97.5"></circle>
+            <circle class="sigma_round-arrow-circle" stroke-linecap="round" cx="98.5" cy="98.6" r="97.5"></circle>
+          </svg>
+          <i class="far fa-chevron-left slick-arrow slider-prev"></i>
+        </div>
+        <div class="sigma_round-arrow next-arrow">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="125px" height="125px" viewBox="0 0 197 197" enable-background="new 0 0 197 197" xml:space="preserve">
+            <circle class="sigma_round-arrow-stroke" stroke-linecap="round" cx="98.5" cy="98.6" r="97.5"></circle>
+            <circle class="sigma_round-arrow-circle" stroke-linecap="round" cx="98.5" cy="98.6" r="97.5"></circle>
+          </svg>
+          <i class="far fa-chevron-right slick-arrow slider-next"></i>
+        </div>
+      </div>
+      <!-- Custom Arrows End -->
+
+    </div>
+  </section>
+  <!-- Urgent Causes End -->
+
+  <!-- Sermons and Event Start -->
+  <section class="section section-padding">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-xl-5 col-lg-6 mb-lg-30">
+          <div class="sigma_event-box">
+            <div class="vertical-between mb-4">
+              <h4 class="mb-0">Latest Event</h4>
+
+              <!-- Custom Arrows Start -->
+              <div class="sigma_arrows sigma_arrows-transparent sigma_arrows-dark sigma_arrows-sm">
+                <div class="sigma_round-arrow prev-arrow">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="125px" height="125px" viewBox="0 0 197 197" enable-background="new 0 0 197 197" xml:space="preserve">
+                    <circle class="sigma_round-arrow-stroke" stroke-linecap="round" cx="98.5" cy="98.6" r="97.5"></circle>
+                    <circle class="sigma_round-arrow-circle" stroke-linecap="round" cx="98.5" cy="98.6" r="97.5"></circle>
+                  </svg>
+                  <i class="far fa-chevron-up slick-arrow slider-prev"></i>
+                </div>
+                <div class="sigma_round-arrow next-arrow">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="125px" height="125px" viewBox="0 0 197 197" enable-background="new 0 0 197 197" xml:space="preserve">
+                    <circle class="sigma_round-arrow-stroke" stroke-linecap="round" cx="98.5" cy="98.6" r="97.5"></circle>
+                    <circle class="sigma_round-arrow-circle" stroke-linecap="round" cx="98.5" cy="98.6" r="97.5"></circle>
+                  </svg>
+                  <i class="far fa-chevron-down slick-arrow slider-next"></i>
+                </div>
+              </div>
+              <!-- Custom Arrows End -->
+
+            </div>
+            <ul class="sigma_event-wrap sigma_event-slider">
+              <li class="vertical-between d-flex">
+                <div class="sigma_event-date">
+                  <span class="custom-primary">20</span>
+                  Dec'20
+                </div>
+                <div class="sigma_event-content">
+                  <h5 class="mb-0"> <a href="event-details.html">If you are going to use</a> </h5>
+                  <ul class="mb-0">
+                    <li><i class="fal fa-clock custom-primary mr-3"></i>Sunday (8:00 - 9:00 am)</li>
+                    <li><i class="fal fa-map-marker custom-primary mr-3"></i>56 Thatcher Avenue River Forest Chicago</li>
+                  </ul>
+                </div>
+              </li>
+              <li class="vertical-between d-flex">
+                <div class="sigma_event-date">
+                  <span class="custom-primary">20</span>
+                  Dec'20
+                </div>
+                <div class="sigma_event-content">
+                  <h5 class="mb-0"> <a href="event-details.html">If you are going to use</a> </h5>
+                  <ul class="mb-0">
+                    <li><i class="fal fa-clock custom-primary mr-3"></i>Sunday (8:00 - 9:00 am)</li>
+                    <li><i class="fal fa-map-marker custom-primary mr-3"></i>56 Thatcher Avenue River Forest Chicago</li>
+                  </ul>
+                </div>
+              </li>
+              <li class="vertical-between d-flex">
+                <div class="sigma_event-date">
+                  <span class="custom-primary">20</span>
+                  Dec'20
+                </div>
+                <div class="sigma_event-content">
+                  <h5 class="mb-0"> <a href="event-details.html">If you are going to use</a> </h5>
+                  <ul class="mb-0">
+                    <li><i class="fal fa-clock custom-primary mr-3"></i>Sunday (8:00 - 9:00 am)</li>
+                    <li><i class="fal fa-map-marker custom-primary mr-3"></i>56 Thatcher Avenue River Forest Chicago</li>
+                  </ul>
+                </div>
+              </li>
+              <li class="vertical-between d-flex">
+                <div class="sigma_event-date">
+                  <span class="custom-primary">20</span>
+                  Dec'20
+                </div>
+                <div class="sigma_event-content">
+                  <h5 class="mb-0"> <a href="event-details.html">If you are going to use</a> </h5>
+                  <ul class="mb-0">
+                    <li><i class="fal fa-clock custom-primary mr-3"></i>Sunday (8:00 - 9:00 am)</li>
+                    <li><i class="fal fa-map-marker custom-primary mr-3"></i>56 Thatcher Avenue River Forest Chicago</li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-xl-2 d-none d-xl-flex align-items-center">
+          <div class="sigma_seperator-vertical">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+
+        <div class="col-xl-5 col-lg-6">
+          <div class="sigma_sermon-box">
+            <div class="vertical-between mb-4">
+              <h4 class="mb-0">Latest Sermons</h4>
+              <a href="#" class="sigma_btn-custom primary btn-sm">View All</a>
+            </div>
+            <ul class="sigma_sermon-wrap" id="accordion">
+              <li>
+                <div class="card">
+                  <div class="card-header">
+                    <a class="card-link" data-toggle="collapse" href="#collapseone">
+                      But I must explain to you how
+                    </a>
+                  </div>
+                  <div id="collapseone" class="collapse show" data-parent="#accordion">
+                    <div class="card-body">
+                      <ul class="mb-0">
+                        <li>
+                          <img src="assets/img/people/1.jpg" alt="user">
+                          Message from
+                          <a href="#" class="fw-600">Jhone Deo</a>
+                        </li>
+                      </ul>
+                      <ul class="custom_flex sigma_block-icons">
+                        <li>
+                          <a href="#" class="vertical-center">
+                            <i class="fab fa-youtube"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" class="vertical-center">
+                            <i class="fal fa-file-pdf"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" class="vertical-center">
+                            <i class="fal fa-share-alt"></i>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="card">
+                  <div class="card-header">
+                    <a class="card-link collapsed" data-toggle="collapse" href="#collapsetwo">
+                      Who loves or pursues
+                    </a>
+                  </div>
+                  <div id="collapsetwo" class="collapse" data-parent="#accordion">
+                    <div class="card-body">
+                      <ul class="mb-0">
+                        <li>
+                          <img src="assets/img/people/1.jpg" alt="user">
+                          Message from
+                          <a href="#" class="fw-600">Jhone Deo</a>
+                        </li>
+                      </ul>
+                      <ul class="custom_flex sigma_block-icons">
+                        <li>
+                          <a href="#" class="vertical-center">
+                            <i class="fab fa-youtube"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" class="vertical-center">
+                            <i class="fal fa-file-pdf"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" class="vertical-center">
+                            <i class="fal fa-share-alt"></i>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="card">
+                  <div class="card-header">
+                    <a class="card-link collapsed" data-toggle="collapse" href="#collapsethree">
+                      That pleasures have to be repudiated
+                    </a>
+                  </div>
+                  <div id="collapsethree" class="collapse" data-parent="#accordion">
+                    <div class="card-body">
+                      <ul class="mb-0">
+                        <li>
+                          <img src="assets/img/people/1.jpg" alt="user">
+                          Message from
+                          <a href="#" class="fw-600">Jhone Deo</a>
+                        </li>
+                      </ul>
+                      <ul class="custom_flex sigma_block-icons">
+                        <li>
+                          <a href="#" class="vertical-center">
+                            <i class="fab fa-youtube"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" class="vertical-center">
+                            <i class="fal fa-file-pdf"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" class="vertical-center">
+                            <i class="fal fa-share-alt"></i>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="card">
+                  <div class="card-header">
+                    <a class="card-link collapsed" data-toggle="collapse" href="#collapsefour">
+                      To take a trivial example
+                    </a>
+                  </div>
+                  <div id="collapsefour" class="collapse" data-parent="#accordion">
+                    <div class="card-body">
+                      <ul class="mb-0">
+                        <li>
+                          <img src="assets/img/people/1.jpg" alt="user">
+                          Message from
+                          <a href="#" class="fw-600">Jhone Deo</a>
+                        </li>
+                      </ul>
+                      <ul class="custom_flex sigma_block-icons">
+                        <li>
+                          <a href="#" class="vertical-center">
+                            <i class="fab fa-youtube"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" class="vertical-center">
+                            <i class="fal fa-file-pdf"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" class="vertical-center">
+                            <i class="fal fa-share-alt"></i>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="card">
+                  <div class="card-header">
+                    <a class="card-link collapsed" data-toggle="collapse" href="#collapsefive">
+                      But I must explain to you how
+                    </a>
+                  </div>
+                  <div id="collapsefive" class="collapse" data-parent="#accordion">
+                    <div class="card-body">
+                      <ul class="mb-0">
+                        <li>
+                          <img src="assets/img/people/1.jpg" alt="user">
+                          Message from
+                          <a href="#" class="fw-600">Jhone Deo</a>
+                        </li>
+                      </ul>
+                      <ul class="custom_flex sigma_block-icons">
+                        <li>
+                          <a href="#" class="vertical-center">
+                            <i class="fab fa-youtube"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" class="vertical-center">
+                            <i class="fal fa-file-pdf"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" class="vertical-center">
+                            <i class="fal fa-share-alt"></i>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="card">
+                  <div class="card-header">
+                    <a class="card-link collapsed" data-toggle="collapse" href="#collapsesix">
+                      Who loves or pursues
+                    </a>
+                  </div>
+                  <div id="collapsesix" class="collapse" data-parent="#accordion">
+                    <div class="card-body">
+                      <ul class="mb-0">
+                        <li>
+                          <img src="assets/img/people/1.jpg" alt="user">
+                          Message from
+                          <a href="#" class="fw-600">Jhone Deo</a>
+                        </li>
+                      </ul>
+                      <ul class="custom_flex sigma_block-icons">
+                        <li>
+                          <a href="#" class="vertical-center">
+                            <i class="fab fa-youtube"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" class="vertical-center">
+                            <i class="fal fa-file-pdf"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" class="vertical-center">
+                            <i class="fal fa-share-alt"></i>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="card">
+                  <div class="card-header">
+                    <a class="card-link collapsed" data-toggle="collapse" href="#collapseseven">
+                      That pleasures have to be repudiated
+                    </a>
+                  </div>
+                  <div id="collapseseven" class="collapse" data-parent="#accordion">
+                    <div class="card-body">
+                      <ul class="mb-0">
+                        <li>
+                          <img src="assets/img/people/1.jpg" alt="user">
+                          Message from
+                          <a href="#" class="fw-600">Jhone Deo</a>
+                        </li>
+                      </ul>
+                      <ul class="custom_flex sigma_block-icons">
+                        <li>
+                          <a href="#" class="vertical-center">
+                            <i class="fab fa-youtube"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" class="vertical-center">
+                            <i class="fal fa-file-pdf"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" class="vertical-center">
+                            <i class="fal fa-share-alt"></i>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- Sermons and Event End -->
+
+  <!-- Misson Vision Start -->
+  <section class="section section-padding pt-0">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-5">
+          <div class="section-title">
+            <h6 class="subtitle cursive-style">History</h6>
+            <h4 class="title">Our History</h4>
+            <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years</p>
+            <a href="#" class="btn-link">Learn More <i class="far fa-arrow-right"></i> </a>
+          </div>
+          <div class="section-title">
+            <h6 class="subtitle cursive-style">Mission</h6>
+            <h4 class="title">Our Mission</h4>
+            <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years</p>
+            <a href="#" class="btn-link">Learn More <i class="far fa-arrow-right"></i> </a>
+          </div>
+        </div>
+        <div class="col-lg-7">
+
+          <div class="d-none d-sm-flex sigma_image-wrap vertical-center position-relative">
+            <div class="sigma_image-box parallax one">
+              <img src="assets/img/mission/1.jpg" alt="image">
+            </div>
+            <div class="sigma_image-box parallax one">
+              <div class="sigma_video-popup-wrap">
+                <img src="assets/img/mission/2.jpg" alt="image">
+                <a href="https://www.youtube.com/watch?v=KH1pcNUTa6U" class="sigma_video-popup popup-youtube">
+                  <i class="far fa-play"></i>
+                </a>
+              </div>
+            </div>
+            <div class="sigma_image-box parallax one">
+              <img src="assets/img/mission/3.jpg" alt="image">
+            </div>
+            <div class="sigma_spacer-sm secondary-bg bg-expand"></div>
+          </div>
+
+          <div class="sigma_testimonial secondary-bg bg-expand">
+            <div class="sigma_testimonial-slider">
+              <div class="sigma_testimonial-inner">
+                <i class="fal fa-quote-left custom-primary"></i>
+                <p class="text-white">Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text. It uses a dictionary of over 200 Latin words, combined with.</p>
+                <cite class="custom-primary">Bobby K. Parker</cite>
+              </div>
+              <div class="sigma_testimonial-inner">
+                <i class="fal fa-quote-left custom-primary"></i>
+                <p class="text-white">Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text. It uses a dictionary of over 200 Latin words, combined with.</p>
+                <cite class="custom-primary">Bobby K. Parker</cite>
+              </div>
+              <div class="sigma_testimonial-inner">
+                <i class="fal fa-quote-left custom-primary"></i>
+                <p class="text-white">Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text. It uses a dictionary of over 200 Latin words, combined with.</p>
+                <cite class="custom-primary">Bobby K. Parker</cite>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Misson Vision End -->
+
+  <!-- Team Start -->
+  <section class="section section-padding pt-0">
+    <div class="container">
+
+      <div class="section-title text-center">
+        <h6 class="subtitle cursive-style">Team</h6>
+        <h4 class="title">Our Pastors</h4>
+        <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years</p>
+        <a href="#" class="btn-link">Learn More <i class="far fa-arrow-right"></i> </a>
+      </div>
+
+      <div class="row">
+
+        <div class="col-lg-3 col-md-6">
+          <div class="sigma_team team-3">
+            <div class="sigma_team-thumb">
+              <img src="assets/img/people/1.jpg" alt="team">
+            </div>
+            <div class="sigma_team-body">
+              <div class="sigma_team-info">
+                <h5>Kenne G. Patten</h5>
+                <p>Lead Pastor</p>
+              </div>
+              <div class="sigma_team-sm">
+                <ul class="sigma_sm">
+                  <li>
+                    <a href="#" class="sigma_round-button">
+                      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="125px" height="125px" viewBox="0 0 197 197" enable-background="new 0 0 197 197" xml:space="preserve">
+                        <circle class="sigma_round-button-stroke" stroke-linecap="round" cx="98.5" cy="98.6" r="97.5"></circle>
+                        <circle class="sigma_round-button-circle" stroke-linecap="round" cx="98.5" cy="98.6" r="97.5"></circle>
+                      </svg>
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="sigma_round-button">
+                      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="125px" height="125px" viewBox="0 0 197 197" enable-background="new 0 0 197 197" xml:space="preserve">
+                        <circle class="sigma_round-button-stroke" stroke-linecap="round" cx="98.5" cy="98.6" r="97.5"></circle>
+                        <circle class="sigma_round-button-circle" stroke-linecap="round" cx="98.5" cy="98.6" r="97.5"></circle>
+                      </svg>
+                      <i class="fab fa-linkedin-in"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="sigma_round-button">
+                      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="125px" height="125px" viewBox="0 0 197 197" enable-background="new 0 0 197 197" xml:space="preserve">
+                        <circle class="sigma_round-button-stroke" stroke-linecap="round" cx="98.5" cy="98.6" r="97.5"></circle>
+                        <circle class="sigma_round-button-circle" stroke-linecap="round" cx="98.5" cy="98.6" r="97.5"></circle>
+                      </svg>
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="sigma_team team-3">
+            <div class="sigma_team-thumb">
+              <img src="assets/img/people/2.jpg" alt="team">
+            </div>
+            <div class="sigma_team-body">
+              <div class="sigma_team-info">
+                <h5>Kenne G. Patten</h5>
+                <p>Lead Pastor</p>
+              </div>
+              <div class="sigma_team-sm">
+                <ul class="sigma_sm">
+                  <li>
+                    <a href="#" class="sigma_round-button">
+                      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="125px" height="125px" viewBox="0 0 197 197" enable-background="new 0 0 197 197" xml:space="preserve">
+                        <circle class="sigma_round-button-stroke" stroke-linecap="round" cx="98.5" cy="98.6" r="97.5"></circle>
+                        <circle class="sigma_round-button-circle" stroke-linecap="round" cx="98.5" cy="98.6" r="97.5"></circle>
+                      </svg>
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="sigma_round-button">
+                      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="125px" height="125px" viewBox="0 0 197 197" enable-background="new 0 0 197 197" xml:space="preserve">
+                        <circle class="sigma_round-button-stroke" stroke-linecap="round" cx="98.5" cy="98.6" r="97.5"></circle>
+                        <circle class="sigma_round-button-circle" stroke-linecap="round" cx="98.5" cy="98.6" r="97.5"></circle>
+                      </svg>
+                      <i class="fab fa-linkedin-in"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="sigma_round-button">
+                      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="125px" height="125px" viewBox="0 0 197 197" enable-background="new 0 0 197 197" xml:space="preserve">
+                        <circle class="sigma_round-button-stroke" stroke-linecap="round" cx="98.5" cy="98.6" r="97.5"></circle>
+                        <circle class="sigma_round-button-circle" stroke-linecap="round" cx="98.5" cy="98.6" r="97.5"></circle>
+                      </svg>
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="sigma_team team-3">
+            <div class="sigma_team-thumb">
+              <img src="assets/img/people/3.jpg" alt="team">
+            </div>
+            <div class="sigma_team-body">
+              <div class="sigma_team-info">
+                <h5>Kenne G. Patten</h5>
+                <p>Lead Pastor</p>
+              </div>
+              <div class="sigma_team-sm">
+                <ul class="sigma_sm">
+                  <li>
+                    <a href="#" class="sigma_round-button">
+                      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="125px" height="125px" viewBox="0 0 197 197" enable-background="new 0 0 197 197" xml:space="preserve">
+                        <circle class="sigma_round-button-stroke" stroke-linecap="round" cx="98.5" cy="98.6" r="97.5"></circle>
+                        <circle class="sigma_round-button-circle" stroke-linecap="round" cx="98.5" cy="98.6" r="97.5"></circle>
+                      </svg>
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="sigma_round-button">
+                      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="125px" height="125px" viewBox="0 0 197 197" enable-background="new 0 0 197 197" xml:space="preserve">
+                        <circle class="sigma_round-button-stroke" stroke-linecap="round" cx="98.5" cy="98.6" r="97.5"></circle>
+                        <circle class="sigma_round-button-circle" stroke-linecap="round" cx="98.5" cy="98.6" r="97.5"></circle>
+                      </svg>
+                      <i class="fab fa-linkedin-in"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="sigma_round-button">
+                      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="125px" height="125px" viewBox="0 0 197 197" enable-background="new 0 0 197 197" xml:space="preserve">
+                        <circle class="sigma_round-button-stroke" stroke-linecap="round" cx="98.5" cy="98.6" r="97.5"></circle>
+                        <circle class="sigma_round-button-circle" stroke-linecap="round" cx="98.5" cy="98.6" r="97.5"></circle>
+                      </svg>
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="sigma_team team-3">
+            <div class="sigma_team-thumb">
+              <img src="assets/img/people/4.jpg" alt="team">
+            </div>
+            <div class="sigma_team-body">
+              <div class="sigma_team-info">
+                <h5>Kenne G. Patten</h5>
+                <p>Lead Pastor</p>
+              </div>
+              <div class="sigma_team-sm">
+                <ul class="sigma_sm">
+                  <li>
+                    <a href="#" class="sigma_round-button">
+                      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="125px" height="125px" viewBox="0 0 197 197" enable-background="new 0 0 197 197" xml:space="preserve">
+                        <circle class="sigma_round-button-stroke" stroke-linecap="round" cx="98.5" cy="98.6" r="97.5"></circle>
+                        <circle class="sigma_round-button-circle" stroke-linecap="round" cx="98.5" cy="98.6" r="97.5"></circle>
+                      </svg>
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="sigma_round-button">
+                      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="125px" height="125px" viewBox="0 0 197 197" enable-background="new 0 0 197 197" xml:space="preserve">
+                        <circle class="sigma_round-button-stroke" stroke-linecap="round" cx="98.5" cy="98.6" r="97.5"></circle>
+                        <circle class="sigma_round-button-circle" stroke-linecap="round" cx="98.5" cy="98.6" r="97.5"></circle>
+                      </svg>
+                      <i class="fab fa-linkedin-in"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="sigma_round-button">
+                      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="125px" height="125px" viewBox="0 0 197 197" enable-background="new 0 0 197 197" xml:space="preserve">
+                        <circle class="sigma_round-button-stroke" stroke-linecap="round" cx="98.5" cy="98.6" r="97.5"></circle>
+                        <circle class="sigma_round-button-circle" stroke-linecap="round" cx="98.5" cy="98.6" r="97.5"></circle>
+                      </svg>
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- Team End -->
+
+  <!-- Products Start -->
+  <div class="section section-padding light-bg">
+    <div class="container">
+
+      <div class="section-title text-center">
+        <h6 class="subtitle cursive-style">Products</h6>
+        <h4 class="title">Church Products</h4>
+        <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years</p>
+      </div>
+
+      <div class="row">
+
+        <!-- Product Start -->
+        <div class="col-lg-4">
+          <div class="sigma_product">
+            <div class="sigma_product-badge sigma_badge-featured">
+              <i class="fa fa-star"></i>
+            </div>
+            <div class="sigma_product-thumb">
+              <a href="product-single.html"><img src="assets/img/products/1.jpg" alt="product"></a>
+            </div>
+            <div class="sigma_product-body">
+              <h5 class="sigma_product-title"> <a href="product-single.html"> Kiwi & Strawberry </a> </h5>
+              <p>Cras ultricies ligula sed magna dictum porta. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.</p>
+              <div class="sigma_rating-wrapper">
+                <div class="sigma_rating">
+                  <i class="fa fa-star active"></i>
+                  <i class="fa fa-star active"></i>
+                  <i class="fa fa-star active"></i>
+                  <i class="fa fa-star active"></i>
+                  <i class="fa fa-star"></i>
+                </div>
+                <span>4 Stars</span>
+              </div>
+            </div>
+            <div class="sigma_product-footer">
+              <div class="sigma_product-price">
+                <span>19$</span>
+                <span>29$</span>
+              </div>
+              <a href="product-single.html" class="sigma_btn-custom btn-sm">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <!-- Product End -->
+
+        <!-- Product Start -->
+        <div class="col-lg-4">
+          <div class="sigma_product">
+            <div class="sigma_product-badge sigma_badge-featured">
+              <i class="fa fa-star"></i>
+            </div>
+            <div class="sigma_product-thumb">
+              <a href="product-single.html"><img src="assets/img/products/2.jpg" alt="product"></a>
+            </div>
+            <div class="sigma_product-body">
+              <h5 class="sigma_product-title"> <a href="product-single.html"> Fresh Oranges </a> </h5>
+              <p>Cras ultricies ligula sed magna dictum porta. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.</p>
+              <div class="sigma_rating-wrapper">
+                <div class="sigma_rating">
+                  <i class="fa fa-star active"></i>
+                  <i class="fa fa-star active"></i>
+                  <i class="fa fa-star active"></i>
+                  <i class="fa fa-star active"></i>
+                  <i class="fa fa-star active"></i>
+                </div>
+                <span>5 Stars</span>
+              </div>
+            </div>
+            <div class="sigma_product-footer">
+              <div class="sigma_product-price">
+                <span>11$</span>
+              </div>
+              <a href="product-single.html" class="sigma_btn-custom btn-sm">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <!-- Product End -->
+
+        <!-- Product Start -->
+        <div class="col-lg-4">
+          <div class="sigma_product">
+            <div class="sigma_product-badge sigma_badge-sale">
+              20% Off
+            </div>
+            <div class="sigma_product-thumb">
+              <a href="product-single.html"><img src="assets/img/products/3.jpg" alt="product"></a>
+            </div>
+            <div class="sigma_product-body">
+              <h5 class="sigma_product-title"> <a href="product-single.html"> Cucumbers </a> </h5>
+              <p>Cras ultricies ligula sed magna dictum porta. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.</p>
+              <div class="sigma_rating-wrapper">
+                <div class="sigma_rating">
+                  <i class="fa fa-star active"></i>
+                  <i class="fa fa-star active"></i>
+                  <i class="fa fa-star active"></i>
+                  <i class="fa fa-star active"></i>
+                  <i class="fa fa-star"></i>
+                </div>
+                <span>4 Stars</span>
+              </div>
+            </div>
+            <div class="sigma_product-footer">
+              <div class="sigma_product-price">
+                <span>8$</span>
+                <span>14$</span>
+              </div>
+              <a href="product-single.html" class="sigma_btn-custom btn-sm">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <!-- Product End -->
+
+      </div>
+    </div>
+  </div>
+  <!-- Products End -->
+
+  <!-- Blog posts start -->
+  <div class="section section-padding">
+    <div class="container">
+
+      <div class="section-title text-center">
+        <h6 class="subtitle secondary cursive-style">Blog</h6>
+        <h4 class="title">Latest News</h4>
+        <p>Cras ultricies ligula sed magna dictum porta. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.</p>
+      </div>
+
+      <div class="row">
+
+        <!-- Article Start -->
+        <div class="col-lg-4">
+          <article class="sigma_post">
+          <div class="sigma_post-thumb">
+            <a href="blog-details.html">
+              <img src="assets/img/blog/2.jpg" alt="post">
+            </a>
+          </div>
+          <div class="sigma_post-body text-center">
+            <div class="sigma_post-desc">
+              <span> <a href="blog-details.html" class="sigma_post-date">May 20, 2024</a> </span>
+              <h5> <a href="blog-details.html">Church Events Coming</a> </h5>
+              <p>You need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+            </div>
+            <a class="sigma_btn-custom" href="blog-details.html"> Read More </a>
+          </div>
+        </article>
+        </div>
+
+        <!-- Article End -->
+
+        <!-- Article Start -->
+        <div class="col-lg-4">
+          <article class="sigma_post">
+          <div class="sigma_post-thumb">
+            <a href="blog-details.html">
+              <img src="assets/img/blog/3.jpg" alt="post">
+            </a>
+          </div>
+          <div class="sigma_post-body text-center">
+            <div class="sigma_post-desc">
+              <span><a href="blog-details.html" class="sigma_post-date">May 20, 2024</a> </span>
+              <h5> <a href="blog-details.html">As He who Rises</a> </h5>
+              <p>You need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+            </div>
+            <a class="sigma_btn-custom" href="blog-details.html"> Read More </a>
+          </div>
+        </article>
+        </div>
+        <!-- Article End -->
+
+        <!-- Article Start -->
+        <div class="col-lg-4">
+          <article class="sigma_post">
+          <div class="sigma_post-thumb">
+            <a href="blog-details.html">
+              <img src="assets/img/blog/4.jpg" alt="post">
+            </a>
+          </div>
+          <div class="sigma_post-body text-center">
+            <div class="sigma_post-desc text-center">
+              <span><a href="blog-details.html" class="sigma_post-date">May 20, 2024</a> </span>
+              <h5> <a href="blog-details.html">Make The Perfect Basket</a> </h5>
+              <p>You need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+            </div>
+            <a class="sigma_btn-custom" href="blog-details.html"> Read More </a>
+          </div>
+        </article>
+        </div>
+        <!-- Article End -->
+
+      </div>
+    </div>
+  </div>
+  <!-- Blog posts End -->
+
+  <!-- Instagram Start -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-2 col-md-4 col-sm-4 col-6">
+        <a href="#" class="sigma_ig-item">
+          <img src="assets/img/ig/1.jpg" alt="ig">
+        </a>
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-4 col-6">
+        <a href="#" class="sigma_ig-item">
+          <img src="assets/img/ig/2.jpg" alt="ig">
+        </a>
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-4 col-6">
+        <a href="#" class="sigma_ig-item">
+          <img src="assets/img/ig/3.jpg" alt="ig">
+        </a>
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-4 col-6">
+        <a href="#" class="sigma_ig-item">
+          <img src="assets/img/ig/4.jpg" alt="ig">
+        </a>
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-4 col-6">
+        <a href="#" class="sigma_ig-item">
+          <img src="assets/img/ig/5.jpg" alt="ig">
+        </a>
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-4 col-6">
+        <a href="#" class="sigma_ig-item">
+          <img src="assets/img/ig/6.jpg" alt="ig">
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- Instagram End -->
+
+  <!-- Footer Start -->
+  <footer class="sigma_footer footer-2">
+
+    <!-- Top Footer -->
+    <div class="sigma_footer-top secondary-bg">
+      <div class="container">
+        <div class="sigma_footer-logo sigma_footer-top-item">
+          <img src="assets/img/logo-light.png" alt="logo">
+
+        </div>
+        <div class="sigma_footer-newsletter sigma_footer-top-item">
+          <form method="post">
+            <input type="text" name="newsletter_email" placeholder="Email Address" value="">
+            <button type="submit" class="btn-link" name="button"> Submit <i class="far fa-caret-right"></i> </button>
+          </form>
+        </div>
+        <div class="sigma_footer-sm sigma_footer-top-item">
+
+          <ul class="sigma_sm">
+            <li> <a href="#"> <i class="fab fa-facebook-f"></i> </a> </li>
+            <li> <a href="#"> <i class="fab fa-twitter"></i> </a> </li>
+            <li> <a href="#"> <i class="fab fa-linkedin-in"></i> </a> </li>
+            <li> <a href="#"> <i class="fab fa-youtube"></i> </a> </li>
+            <li> <a href="#"> <i class="fab fa-instagram"></i> </a> </li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Middle Footer -->
+    <div class="sigma_footer-middle">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12 footer-widget">
+            <h5 class="widget-title">Contact Us</h5>
+            <p>9000 Regency Parkway, Suite 400 Cary, NC 27518</p>
+            <p>E: <a href="mailto:supportsaasapp@gmail.com">supportsaasapp@gmail.com</a></p>
+            <p>P: +000 1456 6978 111</p>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12 footer-widget">
+            <h5 class="widget-title">Information</h5>
+            <ul>
+              <li> <a href="index.html">Home</a> </li>
+              <li> <a href="blog-grid.html">Blog</a> </li>
+              <li> <a href="about-us.html">About Us</a> </li>
+              <li> <a href="shop.html">Shop</a> </li>
+              <li> <a href="contact-us.html">Contact Us</a> </li>
+            </ul>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12 footer-widget">
+            <h5 class="widget-title">Others</h5>
+            <ul>
+              <li> <a href="sermons.html">Sermons</a> </li>
+              <li> <a href="events.html">Events</a> </li>
+              <li> <a href="donations.html">Donations</a> </li>
+              <li> <a href="shop.html">Products</a> </li>
+              <li> <a href="blog-grid.html">Blog</a> </li>
+            </ul>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 d-none d-lg-block footer-widget">
+            <h5 class="widget-title">Top Categories</h5>
+            <ul>
+              <li> <a href="#">Church</a> </li>
+              <li> <a href="#">Church Events</a> </li>
+              <li> <a href="#">Sunday Sermons</a> </li>
+              <li> <a href="#">Sermon</a> </li>
+              <li> <a href="#">Jesus Christ</a> </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Bottom -->
+    <div class="sigma_footer-bottom">
+      <div class="container">
+        <ul>
+          <li> <a href="#">Privacy Policy</a> </li>
+          <li> <a href="#">Refund Policy</a> </li>
+          <li> <a href="#">Cookie Policy</a> </li>
+          <li> <a href="#">Terms & Conditions</a> </li>
+        </ul>
+        <div class="sigma_footer-copyright">
+          <p> Copyright © 2024. All Rights Reserved. </p>
+          <a href="#" class="sigma_back-to-top">
+            Back to top
+            <div class="sigma_round-button">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="125px" height="125px" viewBox="0 0 197 197" enable-background="new 0 0 197 197" xml:space="preserve">
+                <circle class="sigma_round-button-stroke" stroke-linecap="round" cx="98.5" cy="98.6" r="97.5"></circle>
+                <circle class="sigma_round-button-circle" stroke-linecap="round" cx="98.5" cy="98.6" r="97.5"></circle>
+              </svg>
+              <i class="far fa-chevron-up"></i>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  <!-- Footer End -->
+
+  <!-- Vendor Scripts -->
+  <script src="assets/js/plugins/jquery-3.4.1.min.js"></script>
+  <script src="assets/js/plugins/popper.min.js"></script>
+  <script src="assets/js/plugins/waypoint.js"></script>
+  <script src="assets/js/plugins/bootstrap.min.js"></script>
+  <script src="assets/js/plugins/wow.min.js"></script>
+  <script src="assets/js/plugins/jquery.magnific-popup.min.js"></script>
+  <script src="assets/js/plugins/jquery.slimScroll.min.js"></script>
+  <script src="assets/js/plugins/imagesloaded.min.js"></script>
+  <script src="assets/js/plugins/jquery.steps.min.js"></script>
+  <script src="assets/js/plugins/jquery.countdown.min.js"></script>
+  <script src="assets/js/plugins/isotope.pkgd.min.js"></script>
+  <script src="assets/js/plugins/slick.min.js"></script>
+  <script src="assets/js/plugins/ion.rangeSlider.min.js"></script>
+  <script src="assets/js/plugins/jquery.zoom.min.js"></script>
+  <script src="assets/js/plugins/jquery.inview.min.js"></script>
+  <script src="assets/js/plugins/jquery.easypiechart.js"></script>
+  <!-- Tilakam Scripts -->
+  <script src="assets/js/audio.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
